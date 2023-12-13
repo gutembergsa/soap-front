@@ -10,7 +10,7 @@ This project is a todo list, created with [React](https://github.com/facebook/cr
 
 ## [How to install the project <a name="installation"/>](#list)
 
-To install the project you must have previously installed [Node.js](https://nodejs.org/en/) v17+ and its package manager [NPM](https://nodejs.org/en/) and [clone this repository](https://github.com/gutembergsa/soap-front)
+To install the project you must have previously installed [Node.js](https://nodejs.org/en/) v18+ and its package manager [NPM](https://nodejs.org/en/) and [clone this repository](https://github.com/gutembergsa/soap-front)
 
 After you have done these procedures run the following command.
 
