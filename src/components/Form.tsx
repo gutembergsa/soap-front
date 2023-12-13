@@ -21,10 +21,8 @@ interface Form {
   submit: (fields: Contact) => void;
 }
 
-// Define a component to render the phone book
 const Form = ({ editId, setShowForm, submit }: Form) => {
   const { register, handleSubmit } = useFormContext<FormFields>();
-  // Render the phone book
   return (
     <div>
       <form className="form" onSubmit={handleSubmit(submit)}>
