@@ -5,9 +5,7 @@ import { Contact } from "../App";
 import "../App.css";
 
 const contactsFilter = (contact: Contact, filter: string) => {
-  if (filter === "") {
-    return contact;
-  } else if (contact.lastName.includes(filter)) {
+  if (filter === "" || (filter.length && contact.lastName.includes(filter))) {
     return contact;
   }
 };
