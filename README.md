@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Test Soap Front <a name="list"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [About this project](#about)
+- [How to install the project](#installation)
+- [How to run the project](#exec)
 
-Currently, two official plugins are available:
+## [About the project <a name="about"/>](#list)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a todo list, created with [React](https://github.com/facebook/create-react-app)
 
-## Expanding the ESLint configuration
+## [How to install the project <a name="installation"/>](#list)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install the project you must have previously installed [Node.js](https://nodejs.org/en/) v17+ and its package manager [NPM](https://nodejs.org/en/) and [clone this repository](https://github.com/gutembergsa/soap-front)
 
-- Configure the top-level `parserOptions` property like this:
+After you have done these procedures run the following command.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### `yarn install`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## [How to run the project <a name="exec"/>](#list)
+
+To start the project in development mode on port 5173 ([http://localhost:3000](http://localhost:3000)), go to the project folder `/soap-front` and run:
+
+### `yarn dev`
+
+press `Ctrl + c` to quit the project.
